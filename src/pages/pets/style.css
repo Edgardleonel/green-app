@@ -1,0 +1,49 @@
+.margin-pets {
+    margin: 0 30%;
+}
+
+.margin-pets-inferior {
+    margin: 3% 20%;
+}
+
+h3.title-pets {
+    margin: 0;
+}
+
+p.toxic {
+    margin: 2% 0 5%;
+}
+
+input:checked + label .Pet {
+    background-image: none !important;
+}
+
+.Pet {
+    background-image: url(../../assets/pet.svg);
+    background-repeat: no-repeat;
+    height: 75px;
+    background-position: center;
+}
+
+
+.transparent-pet {
+    background-image: url(../../assets/pet-transparent.svg);
+    background-repeat: no-repeat;
+    height: 75px;
+    background-position: center;
+}
+
+
+@media (max-width: 768px) {
+    .margin-pets, .margin-pets-inferior {
+        margin: 0;
+    }
+
+    .chew h6.title {
+        right: 19%;
+    }
+
+    .chew .icon {
+        margin: 2% 57% 2% 15%;
+    }
+}

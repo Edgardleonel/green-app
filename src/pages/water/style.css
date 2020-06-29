@@ -1,0 +1,71 @@
+input:checked + label.green  {
+    background: #7BAF9E !important;
+    color: #fff !important;
+    box-shadow: -7px 7px 30px rgba(123, 175, 158, 0.7);
+}
+
+input:checked + label .Rarely {
+    background-image: none !important;
+}
+
+input:checked + label .Regularly {
+    background-image: none !important;
+}
+
+input:checked + label .Daily {
+    background-image: none !important;
+}
+
+.Rarely {
+    background-image: url(../../assets/one-drop.svg);
+    background-repeat: no-repeat;
+    height: 75px;
+    background-position: center;
+}
+
+
+.Regularly {
+    background-image: url(../../assets/two-drops.svg);
+    background-repeat: no-repeat;
+    height: 75px;
+    background-position: center
+}
+
+.Daily {
+    background-image: url(../../assets/three-drops.svg);
+    background-repeat: no-repeat;
+    height: 75px;
+    background-position: center
+}
+
+
+.transparent-rarely {
+    background-image: url(../../assets/one-drop-transparent.svg);
+    background-repeat: no-repeat;
+    height: 75px;
+    background-position: center;
+}
+
+.transparent-regularly {
+    background-image: url(../../assets/two-drops-transparent.svg);
+    background-repeat: no-repeat;
+    height: 75px;
+    background-position: center;
+}
+
+.transparent-daily {
+    background-image: url(../../assets/three-drops-transparent.svg);
+    background-repeat: no-repeat;
+    height: 75px;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    label.green .icon {
+        margin: 2% 40% 0 0%;
+    }
+
+    label.green h6.title {
+        right: 30%;
+    }
+}

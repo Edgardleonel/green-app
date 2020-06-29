@@ -1,0 +1,58 @@
+h1.title-picks {
+    margin: 2% 0 5% 0;
+}
+
+.margin-picks {
+    margin: 0 16%;
+}
+
+.plants img{
+    width: 70%;
+}
+
+.plants p {
+    margin: 0;
+    font-weight: bold;
+    margin: 0 0 0 10%;
+    color: #15573F;
+    text-align: left;
+}
+
+.plants button.transparent {
+    width: 90%;
+}
+
+.description-plants img {
+    width: 10%;
+    float: right;
+    margin-right: 10%;
+}
+
+.description-plants span {
+    float: left;
+    margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+    .margin-picks .row {
+        display: flex;
+        width: max-content;
+        overflow-x: auto;
+    }
+    .margin-picks .col-4 {
+        flex: 1;
+    }
+
+    .margin-picks {
+        margin: 0 5%;
+        overflow-y: hidden;
+    }
+    .plants img{
+        width: auto;
+    }
+
+    .description-plants img {
+        width: 10%;
+    }
+    
+}
